@@ -21,9 +21,9 @@ style_name = st.sidebar.selectbox(
 )
 
 
-model= "saved_models/" + style_name + ".pth"
-input_image = "images/content-images/" + img
-output_image = "images/output-images/" + style_name + "-" + img
+model= "/saved_models/" + style_name + ".pth"
+input_image = "/images/content-images/" + img
+output_image = "/images/output-images/" + style_name + "-" + img
 
 st.write('### Source image:')
 image = Image.open(input_image)
