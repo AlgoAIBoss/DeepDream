@@ -16,7 +16,7 @@ udnie_image = Image.open('images/style-images/udnie.jpg')
 
 #display the reference images
 st.write('Style Reference Images:')
-col1, col2, col3, col4 = st.beta_columns(4)
+col1, col2, col3, col4 = st.columns(4)
 with col1:
     st.header("Candy")
     st.image(candy_image, use_column_width=True)
@@ -24,7 +24,7 @@ with col2:
     st.header("Mosaic")
     st.image(mosaic_image, use_column_width=True)
 with col3:
-    st.header("Rain Princess")
+    st.header("Rain")
     st.image(rain_princess_image, use_column_width=True)
 with col4:
     st.header("Udnie")
